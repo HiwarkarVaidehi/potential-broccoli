@@ -11,6 +11,9 @@ const PORT = process.env.PORT;
 app.get("/", (request, response) => {
     response.status(200).send("Helloo world");
 });
+app.get("/boondikaladdoo", (request, response) => {
+    response.status(200).send("you are my boondi ka laddoo");
+});
 app.listen(PORT, () => {
     console.log("running on ", PORT);
 });

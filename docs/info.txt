@@ -1,0 +1,16 @@
+get - /todo/{id}
+https://example.com/articles?sort=ASC&page=2&category=fiction - query param
+https://www.example.com/search?query=laptops&category=electronics&sort=price_asc - 
+
+/categories/{categoryId}/products/{productId} - path param
+/users/{userId}
+
+post- /todo/create
+
+delete- /todo/delete - check if we should pass req body or path param (refer http methods)
+
+? - /todo/update
+
+learn markdown - 1 hr 
+
+rds 
